@@ -98,6 +98,9 @@ body{
 
 
 /* Skill */
+.skills{
+  margin-bottom: 20px;
+}
 .skills--list{
   list-style: none;
   display: flex;
@@ -109,7 +112,6 @@ body{
   padding: 20px;
   font-size: 1.4vw;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-bottom: 20px;
 }
 .skills--list li{
   border: 2px solid black;
