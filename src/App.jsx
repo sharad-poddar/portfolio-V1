@@ -22,7 +22,7 @@ export default function App(){
       <Intro/>
       <Title prop={'About'}/>
       <About/>
-      <Title prop={'Skills'}/>
+      <Title prop={'Skills ❤️'}/>
       <Skill/>
       <Title prop={'Projects'}/>
       <Project/>

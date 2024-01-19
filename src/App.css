@@ -11,6 +11,7 @@ body{
   flex-direction: column;
   align-items: center;
   user-select: none;
+  gap: 50px;
 }
 
 
@@ -29,16 +30,15 @@ body{
 
 /* Title */
 .wrapper{
-  margin-top:10vh;
+  margin-top: 100px;
   margin-bottom: 3vh;
   font-family: 'Rubik Burned';
   text-align: start;
 }
-
 .wrapper h2{
-  margin:10;
+  margin: 40px;
   line-height: 1;
-  font-size: 2vw;
+  font-size: 40px;
   color: transparent;
   text-transform: uppercase;
   background-image: linear-gradient(45deg, #2ecc71, #3498db, #9b59b6, #f39c12);
@@ -71,6 +71,7 @@ body{
 
 
 
+
 /* Intro */
 .intro{
   max-width: 40vh;
@@ -98,19 +99,16 @@ body{
 
 
 /* Skill */
-.skills{
-  margin-bottom: 20px;
-}
+
 .skills--list{
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
   justify-content: center;
-  max-height: 40vh;
   max-width: 40vh;
   padding: 20px;
-  font-size: 1.4vw;
+  font-size: 24px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .skills--list li{
@@ -124,7 +122,6 @@ body{
 
 /* Projects */
 .projects{
-  margin-top:20px;
   display: flex;
   flex-direction: column;
   gap:10px;
@@ -145,20 +142,19 @@ body{
 /* Links */
 .links{
   display: flex;
-  gap:10px;
+  gap:15px;
   align-items: center;
   justify-content: center;
 }
 .links i{
-  font-size: 3vh;
+  font-size: 35px;
   text-decoration: none;
   color:black;
 }
 .links button{
-  width: 10vw;
-  padding:5px;
+  padding:7px;
   border-radius: 5px;
-  font-size: 1vw;
+  font-size: 20px;
   background-color: transparent;
 }
 .links button a{
@@ -187,7 +183,7 @@ body{
   gap: 5px;
 }
 .input{
-  width: 10vw;
+  width: 150px;
   padding: 5px;
   border: 2px solid black;
   border-radius: 5px;
@@ -196,7 +192,7 @@ body{
   outline: none;
 }
 .mail form button{
-  width: 10vw;
+  width: 150;
   padding: 5px;
   border: 2px solid black;
   border-radius: 5px;
@@ -228,5 +224,39 @@ body{
   }
   83%{
     color: #f39c12;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    font-size: 15px;
+  }
+  .wrapper {
+    font-size: 20px;
+  }
+  .mail{
+    font-size: 15px;
+  }
+  .skills--list{
+    font-size: 15px;
+  }
+  input, button{
+    width: 100px;
+  }
+  .links{
+    gap: 5px;
+  }
+  .links i{
+    font-size: 25px;
+  }
+  .mail--smile{
+    font-size: 20px;
+  }
+  body{
+    align-items: center;
+  }
+  .wrapper{
+    align-self: flex-start;
   }
 }
